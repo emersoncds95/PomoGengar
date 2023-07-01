@@ -43,9 +43,9 @@ function startTimer() {
     }
   }
   if(minutes >= 10){
-    fundoCronometro.style.background = "url(img/bg-hunter.jpg)"
+    fundoCronometro.style.background = "url(../img/bg-hunter.jpg)"
 }if(minutes >= 20){
-    fundoCronometro.style.background = "url(img/bg-genkar.jpg)"
+    fundoCronometro.style.background = "url(../img/bg-genkar.jpg)"
 }
 
 
