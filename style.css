@@ -1,0 +1,78 @@
+body{
+    
+    height: 100%;
+    background: url(img/fundo.png);
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+#topo-cronometro{
+    height: 300px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background: url(img/bg-gastly.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 15.5px );
+    -webkit-backdrop-filter: blur( 15.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.campo-cronometro{
+    text-align: center;
+    background-color: #804ca807;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0.5px );
+    -webkit-backdrop-filter: blur( 20.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo h1{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 10px 10px black;
+    font-weight: 600;
+    font-size: 46px;
+}
+#timer{
+    color: rgb(235, 113, 0);
+    font-size: 36px;
+    font-weight: 600;
+    text-shadow: 1px 10px 10px black;
+}
+.buttons button{
+    border: none;
+    padding: 10px 20px;
+    background: rgba(226, 226, 226, 0.479);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 14px );
+-webkit-backdrop-filter: blur( 14px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: rgb(58, 1, 110);
+    font-weight: 600;
+}
+.check-list{
+    background-color: #804ca81e;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 15.5px );
+    -webkit-backdrop-filter: blur( 15.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto-check{
+    text-align: center;
+    color: white;
+}
