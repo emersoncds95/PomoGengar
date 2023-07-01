@@ -17,8 +17,11 @@
     const label = document.createElement('label');
     label.textContent = text;
     const deleteButton = document.createElement('button');
+    deleteButton.classList.add("excluir-item");
     deleteButton.textContent = 'Excluir';
     const editButton = document.createElement('button');
+    editButton.classList.add("editar-item");
+
     editButton.textContent = 'Editar';
 
     checkbox.addEventListener('change', function() {
