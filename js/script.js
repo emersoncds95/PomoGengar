@@ -19,7 +19,7 @@ pauseBtn.addEventListener('click', function() {
   clearInterval(interval);
   startBtn.removeAttribute('disabled');
   pauseBtn.setAttribute('disabled', true);
-});
+}); 
 
 resetBtn.addEventListener('click', function() {
   clearInterval(interval);
