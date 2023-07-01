@@ -88,7 +88,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 #add-item-button{
-    background-color: green;
+    background-color: rgb(31, 38, 135);
     padding: 5px 10px;
     border-radius: 5px;
     border: none;
@@ -96,7 +96,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     color: white;
 }
 #clear-all-button{
-    background-color: red;
+    background-color: rgb(5, 9, 61);
     padding: 5px 10px;
     border-radius: 5px;
     border: none;
@@ -120,14 +120,14 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
    margin-right: 5px;
 }
 .excluir-item{
-    background-color: red;
+    background-color: rgb(31, 38, 135);;
     color: white;
     margin-left: 10px;
     border: none;
     border-radius: 5px;
 }
 .editar-item{
-    background-color: orange;
+    background-color: rgb(5, 9, 61);
     color: white;
     margin-left: 5px;
     border: none;
