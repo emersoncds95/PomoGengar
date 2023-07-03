@@ -41,6 +41,11 @@ body{
     font-weight: 600;
     font-size: 46px;
 }
+.titulo p{
+    color: white;
+    font-weight: 600;
+    text-shadow: 1px 10px 10px black;
+}
 #timer{
     color: rgb(235, 113, 0);
     font-size: 36px;
